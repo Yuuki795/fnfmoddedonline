@@ -1,7 +1,7 @@
 
 
 
-#Friday Night Funkin Modded Online
+# Friday Night Funkin Modded Online
 
 This is a online version of FNF with mods! It will be constantly updated with new mods but this is also a development thing so if something is broken use the issues tab.
 
