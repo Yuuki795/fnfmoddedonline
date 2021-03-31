@@ -495,6 +495,13 @@ class Character extends FlxSprite
 				addOffset("singDOWN-alt", -30, -27);
 
 				playAnim('idle');
+			case 'whitty':
+				frames = Paths.getSparrowAtlas('WhittyCrazy_assets');
+				animation.addByPrefix('idle', 'Whitty idle dance', 24, true);
+				animation.addByPrefix('singUP', 'Whitty Sing Note UP', 24, false);
+				animation.addByPrefix('singLEFT', 'Whitty Sing Note LEFT', 24, false);
+				animation.addByPrefix('singDOWN', 'Whitty Sing Note DOWN', 24, false);
+				animation.addByPrefix('singRIGHT', 'Whitty Sing Note RIGHT', 24, false);
 		}
 
 		dance();
