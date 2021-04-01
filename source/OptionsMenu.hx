@@ -32,7 +32,8 @@ class OptionsMenu extends MusicBeatState
 			"\nAccuracy " + (!FlxG.save.data.accuracyDisplay ? "off" : "on") + 
 			"\nSong Position " + (!FlxG.save.data.songPosition ? "off" : "on") +
 			"\nEtterna Mode " + (!FlxG.save.data.etternaMode ? "off" : "on") +
-			"\nLoad replays");
+			"\nLoad replays" 
+			);
 		
 		trace(controlsStrings);
 

@@ -31,11 +31,12 @@ class StoryMenuState extends MusicBeatState
 		['Satin-Panties', "High", "Milf"],
 		['Cocoa', 'Eggnog', 'Winter-Horrorland'],
 		['Senpai', 'Roses', 'Thorns'],
-		['Ballistic']
+		['Ballistic'],
+		['Overwrite', 'Inking Mistake']
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['dad', 'bf', 'gf'],
@@ -45,7 +46,8 @@ class StoryMenuState extends MusicBeatState
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
 		['senpai', 'bf', 'gf'],
-		['dad', 'bf', 'gf']
+		['whitty', 'bf', 'gf'],
+		['xchara', 'ink', 'bf', 'gf']
 	];
 
 	var weekNames:Array<String> = [
@@ -56,7 +58,8 @@ class StoryMenuState extends MusicBeatState
 		"MOMMY MUST MURDER",
 		"RED SNOW",
 		"hating simulator ft. moawling",
-		"Whitty"
+		"Whitty",
+		"Underverse"
 	];
 
 	var txtWeekTitle:FlxText;

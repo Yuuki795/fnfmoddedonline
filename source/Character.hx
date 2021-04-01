@@ -502,6 +502,36 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Whitty Sing Note LEFT', 24, false);
 				animation.addByPrefix('singDOWN', 'Whitty Sing Note DOWN', 24, false);
 				animation.addByPrefix('singRIGHT', 'Whitty Sing Note RIGHT', 24, false);
+
+			case 'ink':
+				frames = Paths.getSparrowAtlas('ink');
+				animation.addByPrefix('idle', 'Ink idle dance', 24, true);
+				animation.addByPrefix('singUP', 'Ink Sing Note UP', 24, false);
+				animation.addByPrefix('singLEFT', 'Ink Sing Note LEFT', 24, false);
+				animation.addByPrefix('singDOWN', 'Ink Sing Note DOWN', 24, false);
+				animation.addByPrefix('singRIGHT', 'Ink Sing Note RIGHT', 24, false);
+
+				addOffset('idle', -30, -210);
+				addOffset('singUP', -30, -210);
+				addOffset('singRIGHT', -30, -210);
+				addOffset('singDOWN', -30, -210);
+				addOffset('singLEFT', -30, -210);
+
+			case 'xchara':
+				frames = Paths.getSparrowAtlas('xchara');
+				animation.addByPrefix('idle', 'Dad idle dance', 24, true);
+				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
+				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24, false);
+				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
+
+				addOffset('idle', -30, -210);
+				addOffset('singUP', -30, -210);
+				addOffset('singRIGHT', -30, -210);
+				addOffset('singDOWN', -30, -210);
+				addOffset('singLEFT', -30, -210);
+
+
 		}
 
 		dance();
